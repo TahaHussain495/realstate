@@ -1,0 +1,421 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for navbar*/
+.navdiv {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 98%;   
+}
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main li {
+    display: inline-block;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}
+.main button {
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.main li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.main p {
+    font-size: 18px;
+}
+.section {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10%;
+}
+.section>div {
+    background: linear-gradient(#C1DEE8,#FBD9B9);
+    width: 100%;
+    height: 480px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    padding: 50px;
+}
+.section p {
+    font-size: 20px;
+}
+.section h2 {
+    font-size: 50px;
+    padding-bottom: 20%;
+    letter-spacing: 0.5px;
+}
+#tex {
+    padding-bottom: 35px;
+    font-size: 16px;
+}
+.section input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#gig {
+    width: 100px;
+    background-color: rgb(36, 34, 34);
+    color: white;  
+}
+.fig {
+    text-align: center;
+    
+}
+.fig h2 {
+    font-size: 45px;
+}
+.heading {
+    padding-left: 20px;
+}
+.heading h2 {
+    font-size: 50px;
+    
+}
+.heading p {
+    font-size: 20px;
+    padding-left: 8px;
+}
+.sigma {
+    display: flex;
+    justify-content: center;
+}
+.portion {
+    padding-left: 20px;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    
+
+}
+.classic {
+    padding-left: 20px;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    
+}
+.bro {
+  padding-top: 20px;
+}
+.portion h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.classic h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.bro h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imag {
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    margin: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(240, 234, 234)
+    
+}
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+.photos {
+    background-color: white;
+    width: 370px;
+    height: 413px;
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(240, 234, 234)
+}
+.gallery {
+    background-color: white;
+    width: 370px;
+    height: 415px;
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(240, 234, 234)
+}
+.thick {
+    opacity: 0.8;
+}
+.light {
+    opacity: 0.8;
+}
+.bold {
+    opacity: 0.8;
+}
+.imag p {
+    font-size: 15px;
+    
+}
+.photos p {
+    font-size: 15px;
+}
+.gallery p {
+    font-size: 15px;
+}
+.clock {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 90%;
+    font-size: 35px;
+
+}
+.ok {
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
+.port {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.port>div { 
+    width: 100%;
+    height: 390px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background: linear-gradient(#C1DEE8,#FBD9B9);
+}
+.apart h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    
+}
+.apart p {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.apart input {
+    width: 160px;
+    height: 40px;
+    padding-left: 50px;
+    border-radius: 20px;
+    border: none;
+
+}
+.apart button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    
+}
+#break {
+    padding-left: 20px;
+}
+
+@media (max-width :480px) {
+
+       .navdiv li {
+        display: none;
+       }
+       .navdiv a {
+        display: none;
+       }
+       .navdiv button {
+        display: none;
+       }
+       .section>div {
+        width: 350px;
+       }
+       
+       .fix {
+        display:none; 
+     }
+       .select h2 {
+        font-size: 40px;
+       }
+       .contain {
+        flex-direction: column;
+       }
+       .container {
+        padding-right: 20px;
+       }
+       .fig h2 {
+        font-size: 40px;
+       }
+       .heading h2 {
+        font-size: 35px;
+        text-align: center;
+       }
+       .heading p {
+        text-align: center;
+       }
+       .clock {
+        font-size: 35px;
+       }
+       .floor {
+        display: none;
+       }
+       .port {
+        width: 450px;
+        height: 400px;
+       }
+       .apart h1 {
+        font-size: 35px;
+       }
+       .apart p {
+        text-align: left;
+       }
+       .select h2 {
+        font-size: 32px;
+        font-weight: bolder;
+       }
+       .select p {
+        text-align: center;
+       }
+       .select input {
+        align-items: center;
+       }
+       .bro p {
+        padding-left: 15px;
+       }
+       .bro h3 {
+        padding-left: 13px;
+       }
+       .bro img {
+        padding-left: 20px;
+       }
+       .classic p {
+        padding-left: 5px;
+       }
+
+
+
+
+      
+      
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
